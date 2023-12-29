@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 576243840535158154}
   - component: {fileID: 5263506619695528197}
   - component: {fileID: 6740390268759039370}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: cima
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 4333106512380683787}
   - component: {fileID: 6834328842092585307}
   - component: {fileID: 1289673043512601413}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: direita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 952265779271126516}
   - component: {fileID: 4127545804395939684}
   - component: {fileID: 7902391000383440403}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Player 3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ MonoBehaviour:
   explosionDuration: 1
   explosionLayerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 136
   explosionRadius: 1
   destrutivelTiles: {fileID: 0}
   destrutivelPrefab: {fileID: 1515931477715291099, guid: 46db3fab6d67b1b4bb49c506444db934, type: 3}
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 6526427575623098969}
   - component: {fileID: 2284579244760122216}
   - component: {fileID: 5138050750401262005}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 903056809702186228}
   - component: {fileID: 4280044331735266908}
   - component: {fileID: 7938892194085880110}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: baixo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 4908599728941000174}
   - component: {fileID: 4369544228434395250}
   - component: {fileID: 2078228226243329006}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: esquerdo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

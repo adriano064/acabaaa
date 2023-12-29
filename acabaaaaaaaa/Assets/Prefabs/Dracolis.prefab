@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6365141157265746862
+--- !u!1 &4413389588642614215
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6365141157265746848}
-  - component: {fileID: 6365141157265746849}
-  - component: {fileID: 237770527700614234}
+  - component: {fileID: 4413389588642614216}
+  - component: {fileID: 4413389588642614217}
+  - component: {fileID: 4413389588642614214}
   m_Layer: 0
-  m_Name: character_52
+  m_Name: Dracolis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6365141157265746848
+--- !u!4 &4413389588642614216
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6365141157265746862}
+  m_GameObject: {fileID: 4413389588642614215}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.77, y: -2.54, z: 0}
-  m_LocalScale: {x: 3.0815942, y: 2.908594, z: 4}
+  m_LocalPosition: {x: -4.833, y: 4.49, z: 0}
+  m_LocalScale: {x: 2.9423978, y: 2.9423978, z: 2.9423978}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6365141157265746849
+--- !u!212 &4413389588642614217
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6365141157265746862}
+  m_GameObject: {fileID: 4413389588642614215}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -73,29 +73,29 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
-  m_Sprite: {fileID: -877710391, guid: 458fc61eeb151eb42b87ae1b5685fefa, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 333128579, guid: 458fc61eeb151eb42b87ae1b5685fefa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.46, y: 0.47}
+  m_Size: {x: 0.47, y: 0.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &237770527700614234
+--- !u!95 &4413389588642614214
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6365141157265746862}
+  m_GameObject: {fileID: 4413389588642614215}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ac34d4e105a01fc42a65f609d8ba9e20, type: 2}
+  m_Controller: {fileID: 9100000, guid: ea55bce3cab98a7439c688d2d443342f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

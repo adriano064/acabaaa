@@ -3,18 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - inimigo
+  - Explosion
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Grid
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bomba
+  - Explosion
+  - Item
   - 
   - 
   - 
