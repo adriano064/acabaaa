@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 219865636}
   m_Layer: 0
   m_Name: Inimigo (4)
-  m_TagString: Untagged
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 480088426}
   m_Layer: 0
   m_Name: Inimigo
-  m_TagString: Untagged
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1774,7 +1774,7 @@ GameObject:
   - component: {fileID: 727412596}
   m_Layer: 0
   m_Name: Visual
-  m_TagString: Untagged
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1820,7 +1820,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3473587246638606025, guid: 8072b6ce1cf66a34e9106bba7701dff9, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3473587246638606027, guid: 8072b6ce1cf66a34e9106bba7701dff9, type: 3}
       propertyPath: m_Name
@@ -1895,7 +1895,7 @@ GameObject:
   - component: {fileID: 833194092}
   m_Layer: 0
   m_Name: Inimigo (3)
-  m_TagString: Untagged
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2042,7 +2042,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3473587246638606025, guid: 8072b6ce1cf66a34e9106bba7701dff9, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3473587246638606027, guid: 8072b6ce1cf66a34e9106bba7701dff9, type: 3}
       propertyPath: m_Name
@@ -2295,7 +2295,7 @@ GameObject:
   - component: {fileID: 1122310273}
   m_Layer: 0
   m_Name: Inimigo (5)
-  m_TagString: Untagged
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2487,7 +2487,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3473587246638606025, guid: 8072b6ce1cf66a34e9106bba7701dff9, type: 3}
       propertyPath: m_SortingOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3473587246638606027, guid: 8072b6ce1cf66a34e9106bba7701dff9, type: 3}
       propertyPath: m_Name
@@ -4806,7 +4806,7 @@ GameObject:
   - component: {fileID: 2009000217}
   m_Layer: 0
   m_Name: Inimigo (2)
-  m_TagString: Untagged
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4839,7 +4839,7 @@ GameObject:
   - component: {fileID: 2104066426}
   m_Layer: 0
   m_Name: Inimigo (1)
-  m_TagString: Untagged
+  m_TagString: inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4941,9 +4941,21 @@ PrefabInstance:
       propertyPath: destrutivelTiles
       value: 
       objectReference: {fileID: 683169585}
+    - target: {fileID: 7728696153495507137, guid: aa5ff2f2f969bc3498654498d4419014, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728696153495507138, guid: aa5ff2f2f969bc3498654498d4419014, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7728696153495507139, guid: aa5ff2f2f969bc3498654498d4419014, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.1
+      value: 0.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728696155002701154, guid: aa5ff2f2f969bc3498654498d4419014, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7728696155277982961, guid: aa5ff2f2f969bc3498654498d4419014, type: 3}
       propertyPath: m_IsTrigger
@@ -4963,7 +4975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7728696155277982967, guid: aa5ff2f2f969bc3498654498d4419014, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.68
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 7728696155277982967, guid: aa5ff2f2f969bc3498654498d4419014, type: 3}
       propertyPath: m_LocalPosition.z

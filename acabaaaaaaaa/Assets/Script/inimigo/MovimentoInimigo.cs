@@ -19,6 +19,8 @@ public class MovimentoInimigo : MonoBehaviour
     {
         MovimentoINimigo();
         EspelharNaHorizontal();
+        DestruirInimigo();
+
     }
 
     private void MovimentoINimigo()
@@ -50,7 +52,14 @@ public class MovimentoInimigo : MonoBehaviour
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
     }
+    
 
+        public void DestruirInimigo()
+        {
+            Debug.Log("Inimigo destruído!");
+            Destroy(gameObject);
+        }
     
-    
+
+
 }

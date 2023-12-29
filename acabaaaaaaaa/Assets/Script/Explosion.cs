@@ -31,14 +31,22 @@ public class Explosion : MonoBehaviour
     {
         Destroy(gameObject, seconds);
     }
-    
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "inimigo")
+        if (other.gameObject.CompareTag("inimigo"))
         {
-            Destroy(other.gameObject);
-            
+            Debug.Log("Inimigo atingido!");
+            MovimentoInimigo movimentoInimigo = other.gameObject.GetComponent<MovimentoInimigo>();
+
+            if (movimentoInimigo != null)
+            {
+                movimentoInimigo.DestruirInimigo();
+            }
         }
     }
-    
+
+
+
+
 }
