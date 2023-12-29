@@ -10,10 +10,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - Grid
   - Water
   - UI
-  - Grid
+  - Player
   - Bomba
   - Explosion
   - Item

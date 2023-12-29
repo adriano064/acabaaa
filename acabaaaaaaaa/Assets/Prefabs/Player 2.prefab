@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2077744435501000405}
   - component: {fileID: 2077744435501000404}
   - component: {fileID: 2077744435501000407}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 2091081983918563009}
   - component: {fileID: 1184371128840198085}
   - component: {fileID: 8435355135672875000}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Player 2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 8791227493538007569}
   - component: {fileID: 7310841748590547713}
   - component: {fileID: 476348870196755846}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: baixo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 8168595775348157812}
   - component: {fileID: 2169541516023760132}
   - component: {fileID: 590868888069383648}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: esquerdo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 3682261216172096823}
   - component: {fileID: 956838813949935647}
   - component: {fileID: 1088571598930554315}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: direita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 1709624068474001584}
   - component: {fileID: 4254637699481985455}
   - component: {fileID: 5479654356290497011}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: cima
   m_TagString: Untagged
   m_Icon: {fileID: 0}
