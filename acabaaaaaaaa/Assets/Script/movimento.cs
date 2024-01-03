@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class movimento : MonoBehaviour
 {
 
-    public int health = 5;
+    public int vida = 5;
+    public Text textovida;
+    
     private Rigidbody2D rig;
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
@@ -29,11 +33,18 @@ public class movimento : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown;
+        textovida.text = vida.ToString();
 
     }
 
     private void Update()
     {
+        if (vida <= 0)
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene(13);
+        }
+        textovida.text = vida.ToString();
         if (Input.GetKey(inputUp))
         {
             PegarDirecao(Vector2.up,spriteRendererUp);
@@ -81,7 +92,19 @@ public class movimento : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") || other.gameObject.layer == LayerMask.NameToLayer("inimigo"))
         {
+            int totalvida = 4;
+            while ( vida > 0)
+            {
+                
+                vida = totalvida;
+                totalvida--;
+                break;
+                
+            }
+
+            
             DeathSequence();
+            
         }
     }
 
@@ -97,13 +120,5 @@ public class movimento : MonoBehaviour
         gameObject.SetActive(false);
         FindObjectOfType<GameManager>().CheckWinState();
     }
-
-    public void Damage(int dmg)
-    {
-        health -= dmg;
-        if (health < 0)
-        {
-            
-        }
-    }
+    
 }

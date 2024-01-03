@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,18 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject[] players;
+    public Transform Posicaoinicial;
+    public movimento controler;
+
+    private void Awake()
+    {
+        controler = FindObjectOfType<movimento>();
+    }
+
+    private void Start()
+    {
+        Posicaoinicial.transform.position = controler.gameObject.transform.position;
+    }
 
     public void CheckWinState()
     {
@@ -27,6 +40,8 @@ public class GameManager : MonoBehaviour
 
     private void NewRound()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        controler.gameObject.transform.position = Posicaoinicial.transform.position;
+        controler.gameObject.SetActive(true);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

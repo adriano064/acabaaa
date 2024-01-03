@@ -375,6 +375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1049572107}
     m_Modifications:
+    - target: {fileID: 2327470201289601147, guid: 8072b6ce1cf66a34e9106bba7701dff9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3473587246638606027, guid: 8072b6ce1cf66a34e9106bba7701dff9, type: 3}
       propertyPath: m_Name
       value: character_0
@@ -668,7 +672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &683169583
 Transform:
   m_ObjectHideFlags: 0
@@ -1153,6 +1157,37 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &696933359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696933360}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &696933360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696933359}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.01, y: 4.57, z: -13.196635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &866251016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Principal
       objectReference: {fileID: 0}
+    - target: {fileID: 7728696155277982966, guid: 778524cf2bfd9d545a45ff153a2e5d5d, type: 3}
+      propertyPath: textovida
+      value: 
+      objectReference: {fileID: 1431342333}
     - target: {fileID: 7728696155277982967, guid: 778524cf2bfd9d545a45ff153a2e5d5d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1795,6 +1834,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players:
   - {fileID: 968263499}
+  Posicaoinicial: {fileID: 696933360}
+  controler: {fileID: 0}
 --- !u!4 &1574786287
 Transform:
   m_ObjectHideFlags: 0
