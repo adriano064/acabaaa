@@ -1336,8 +1336,6 @@ MonoBehaviour:
   players:
   - {fileID: 1458775490}
   - {fileID: 640872730}
-  - {fileID: 4004069173625706252, guid: 321d95eb02746a640960c420c8988c36, type: 3}
-  - {fileID: 3904281578058754470, guid: f2f1cf6048937a84ebec8f53f4ce4bd4, type: 3}
 --- !u!4 &1574786287
 Transform:
   m_ObjectHideFlags: 0

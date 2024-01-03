@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/fase 1.unity
     guid: ad4409329311bc7498efdc68ba4bd5b1
   - enabled: 1
-    path: Assets/Scenes/fase 2.unity
+    path: Assets/Scenes/fase 3.unity
     guid: e4bcd18479bd3dd4bb1cb9381c8337a4
   - enabled: 1
-    path: Assets/Scenes/fase 3.unity
+    path: Assets/Scenes/fase 2.unity
     guid: a55790c5fba0a5043874fb7d4c340272
   - enabled: 1
-    path: Assets/Scenes/fase final.unity
+    path: Assets/Scenes/Fase Final.unity
     guid: 51557f185f49ccf40a61c43429424ada
   - enabled: 1
     path: Assets/Scenes/fase versus.unity
@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/fase 3.unity
     guid: e4bcd18479bd3dd4bb1cb9381c8337a4
   - enabled: 1
-    path: Assets/Scenes/fase 4.unity
+    path: Assets/Scenes/Fase Final.unity
     guid: 51557f185f49ccf40a61c43429424ada
   - enabled: 1
     path: Assets/Scenes/fase versus.unity
