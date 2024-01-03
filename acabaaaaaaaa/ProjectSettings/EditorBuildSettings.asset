@@ -26,4 +26,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: ca5b719daf515b34787505d1ef4c2c09
+  - enabled: 1
+    path: Assets/Scenes/fase 1.unity
+    guid: ad4409329311bc7498efdc68ba4bd5b1
+  - enabled: 1
+    path: Assets/Scenes/fase 2.unity
+    guid: a55790c5fba0a5043874fb7d4c340272
+  - enabled: 1
+    path: Assets/Scenes/fase 3.unity
+    guid: e4bcd18479bd3dd4bb1cb9381c8337a4
+  - enabled: 1
+    path: Assets/Scenes/fase 4.unity
+    guid: 51557f185f49ccf40a61c43429424ada
+  - enabled: 1
+    path: Assets/Scenes/fase versus.unity
+    guid: c52c475b8e3ef434e92ebe925a6cb95f
   m_configObjects: {}

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class movimento : MonoBehaviour
 {
-    
-    
+
+    public int health = 5;
     private Rigidbody2D rig;
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
@@ -96,5 +96,14 @@ public class movimento : MonoBehaviour
     {
         gameObject.SetActive(false);
         FindObjectOfType<GameManager>().CheckWinState();
+    }
+
+    public void Damage(int dmg)
+    {
+        health -= dmg;
+        if (health < 0)
+        {
+            
+        }
     }
 }
