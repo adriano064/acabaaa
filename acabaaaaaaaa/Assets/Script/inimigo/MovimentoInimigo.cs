@@ -6,59 +6,55 @@ using UnityEngine;
 public class MovimentoInimigo : MonoBehaviour
 {
 
-    public Transform[] pontosdocaminho;
-    private int pontoatual;
-    public float VelocidadeDeMovimento;
-    private float ultimaposicaox;
-    
+    public Transform[] waypoints;  // Pontos para os quais o inimigo se moverá
+    public float moveSpeed = 3f;   // Velocidade de movimento do inimigo
+
+    private int currentWaypoint = 0;
+    private Rigidbody2D rb;
+
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
-        MovimentoINimigo();
-        EspelharNaHorizontal();
-        DestruirInimigo();
-
+        MoveToWaypoint();
     }
 
-    private void MovimentoINimigo()
+    void MoveToWaypoint()
     {
-        // de um ponto para o outro pegando a posição do inimigo, usando Vecto2( posição,ponto atual e velocidade)
-        transform.position = Vector2.MoveTowards(transform.position, pontosdocaminho[pontoatual].position,
-            VelocidadeDeMovimento * Time.deltaTime);
-        if (transform.position == pontosdocaminho[pontoatual].position)
-        {
-            pontoatual += 1;
+        if (waypoints.Length == 0)
+            return;
 
-            ultimaposicaox = transform.localPosition.x;
-            
-            if (pontoatual >= pontosdocaminho.Length)
-            {
-                pontoatual = 0;
-            }
+        Vector2 targetPosition = waypoints[currentWaypoint].position;
+        Vector2 currentPosition = rb.position;
+
+        // Move o inimigo em direção ao ponto de destino
+        Vector2 movement = Vector2.MoveTowards(currentPosition, targetPosition, moveSpeed * Time.deltaTime);
+        rb.MovePosition(movement);
+
+        // Calcula a direção para o próximo ponto de destino
+        Vector2 direction = (targetPosition - currentPosition).normalized;
+
+        // Calcula o ângulo da rotação em radianos apenas no eixo Y
+        float angleInRadians = Mathf.Atan2(direction.y, direction.x);
+
+        // Converte o ângulo de radianos para graus e cria um vetor de rotação
+        Vector3 newRotation = transform.eulerAngles;
+        newRotation.y = angleInRadians * Mathf.Rad2Deg;
+
+        // Define a rotação usando eulerAngles
+        transform.eulerAngles = newRotation;
+
+        // Verifica se o inimigo chegou ao ponto de destino
+        if (Vector2.Distance(currentPosition, targetPosition) < 0.1f)
+        {
+            // Incrementa para o próximo ponto de destino
+            currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
         }
     }
-    
-    private void EspelharNaHorizontal()
-    {
-        if (transform.localPosition.x < ultimaposicaox)
-        {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
-        else if (transform.localPosition.x > ultimaposicaox)
-        {
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-    }
-    
 
-        public void DestruirInimigo()
-        {
-            Debug.Log("Inimigo destruído!");
-            Destroy(gameObject);
-        }
     
 
 

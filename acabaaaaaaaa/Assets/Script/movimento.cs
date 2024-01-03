@@ -76,10 +76,10 @@ public class movimento : MonoBehaviour
         activeSpriteRenderer = spriteRenderer;
         activeSpriteRenderer.idle = direction == Vector2.zero;
     }
-
+//oi
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") || other.gameObject.layer == LayerMask.NameToLayer("inimigo"))
         {
             DeathSequence();
         }
@@ -87,17 +87,10 @@ public class movimento : MonoBehaviour
 
     private void DeathSequence()
     {
-        enabled = false;
-        GetComponent<bomba>().enabled = false;
-
-        spriteRendererUp.enabled = false;
-        spriteRendererDown.enabled = false;
-        spriteRendererLeft.enabled = false;
-        spriteRendererRight.enabled = false;
-        spriteRendererDeath.enabled = true;
-        
-        Invoke(nameof(OnDeathSequenceEnded), 1.25f);
+        gameObject.SetActive(false);
+        FindObjectOfType<GameManager>().CheckWinState();
     }
+
 
     private void OnDeathSequenceEnded()
     {

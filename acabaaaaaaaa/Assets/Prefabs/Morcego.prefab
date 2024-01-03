@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3473587246638606025}
   - component: {fileID: 3473587246638606024}
   - component: {fileID: 2327470201289601147}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Morcego
   m_TagString: inimigo
   m_Icon: {fileID: 0}

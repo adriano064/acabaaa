@@ -34,7 +34,7 @@ public class bomba : MonoBehaviour
             StartCoroutine(ColocarBomba());
         }
     }
-    
+    //oi
     private IEnumerator ColocarBomba()
     {
         Vector2 position = transform.position;
@@ -46,6 +46,10 @@ public class bomba : MonoBehaviour
 
         yield return new WaitForSeconds(tempoFusivelBomba);
 
+        Explode(position, Vector2.up, explosionRadius);
+        Explode(position, Vector2.down, explosionRadius);
+        Explode(position, Vector2.left, explosionRadius);
+        Explode(position, Vector2.right, explosionRadius);
 
         position = bomba.transform.position;
         position.x = Mathf.Round(position.x);
@@ -55,15 +59,11 @@ public class bomba : MonoBehaviour
         explosion.SetActiveRenderer(explosion.inicio);
         explosion.DestroyAfter(explosionDuration);
         Destroy(explosion.gameObject, explosionDuration);
-        
-        Explode(position, Vector2.up, explosionRadius);
-        Explode(position, Vector2.down, explosionRadius);
-        Explode(position, Vector2.left, explosionRadius);
-        Explode(position, Vector2.right, explosionRadius);
-        
+
         Destroy(bomba);
-        bombasRestantes++;  
+        bombasRestantes++;
     }
+
 
     private void Explode(Vector2 position, Vector2 direction, int length)
     {
