@@ -3,15 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="493e7c43-1310-4603-8e2c-704e753b6fae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.acabaaaaaaaa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.acabaaaaaaaa/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Menu/Buttons/Play.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Menu/Buttons/Play.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Menu/Buttons/Versus.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Menu/Buttons/Versus.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/fase 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/fase 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilles/minhapk.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player 4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/fase versus.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/fase versus.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -19,6 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2aDNty2zygHUY56jh5jmjkgPB4G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,10 +38,28 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Pedro",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Filess\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\20211170150004\Documents\git\acabaaa\acabaaaaaaaa -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\20211170150004\Documents\git\acabaaa\acabaaaaaaaa" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Filess\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\20211170150004\Documents\git\acabaaa\acabaaaaaaaa -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\20211170150004\Documents\git\acabaaa\acabaaaaaaaa" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Users\20211170150004\acabaaa\acabaaaaaaaa -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -75,6 +100,7 @@
       <workItem from="1703849416301" duration="6440000" />
       <workItem from="1704217135744" duration="5027000" />
       <workItem from="1704281121233" duration="1046000" />
+      <workItem from="1704296579635" duration="292000" />
     </task>
     <servers />
   </component>

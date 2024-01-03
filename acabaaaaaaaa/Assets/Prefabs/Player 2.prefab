@@ -182,7 +182,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.06, y: 0.25}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!114 &1184371128840198085
@@ -227,7 +227,7 @@ MonoBehaviour:
   explosionDuration: 1
   explosionLayerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 136
   explosionRadius: 1
   destrutivelTiles: {fileID: 0}
   destrutivelPrefab: {fileID: 1515931477715291099, guid: 46db3fab6d67b1b4bb49c506444db934, type: 3}
