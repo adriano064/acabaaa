@@ -621,7 +621,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067ec8b80f442b0418cc0027fa79361f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  faseParaCarregar: 
+  vida: 5
+  textovida: {fileID: 0}
   speed: 5
   inputUp: 273
   inputDown: 274
