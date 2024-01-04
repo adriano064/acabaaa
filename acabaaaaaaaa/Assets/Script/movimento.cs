@@ -39,6 +39,7 @@ public class movimento : MonoBehaviour
 
     private void Update()
     {
+        loadedgamerove();
         if (vida <= 0)
         {
             Destroy(gameObject);
@@ -92,6 +93,7 @@ public class movimento : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") || other.gameObject.layer == LayerMask.NameToLayer("inimigo"))
         {
+          
             int totalvida = 4;
             while ( vida > 0)
             {
@@ -107,7 +109,14 @@ public class movimento : MonoBehaviour
             
         }
     }
-
+ private void loadedgamerove()
+    {
+        if (vida <= 0)
+        {
+            SceneManager.LoadScene("game over");
+        }
+    }
+    
     private void DeathSequence()
     {
         gameObject.SetActive(false);
@@ -120,5 +129,5 @@ public class movimento : MonoBehaviour
         gameObject.SetActive(false);
         FindObjectOfType<GameManager>().CheckWinState();
     }
-    
+   
 }

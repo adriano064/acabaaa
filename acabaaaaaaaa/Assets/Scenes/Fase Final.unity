@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 52556255}
   - component: {fileID: 52556257}
   - component: {fileID: 52556256}
+  - component: {fileID: 52556258}
   m_Layer: 0
   m_Name: character_29
   m_TagString: Untagged
@@ -228,6 +229,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &52556258
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52556254}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.067515165}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.29, y: 0.42}
+    newSize: {x: 0.29, y: 0.42}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1444877, y: 0.2849697}
+  m_EdgeRadius: 0
 --- !u!1001 &59277516
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -341,6 +368,7 @@ GameObject:
   - component: {fileID: 95835091}
   - component: {fileID: 95835093}
   - component: {fileID: 95835092}
+  - component: {fileID: 95835094}
   m_Layer: 0
   m_Name: character_29
   m_TagString: Untagged
@@ -435,6 +463,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &95835094
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95835090}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0510109}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.29, y: 0.42}
+    newSize: {x: 0.29, y: 0.42}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1444877, y: 0.3179782}
+  m_EdgeRadius: 0
 --- !u!1 &111268280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4361,6 +4415,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   players:
   - {fileID: 171853368}
+  Posicaoinicial: {fileID: 0}
+  controler: {fileID: 0}
 --- !u!4 &1348757152
 Transform:
   m_ObjectHideFlags: 0

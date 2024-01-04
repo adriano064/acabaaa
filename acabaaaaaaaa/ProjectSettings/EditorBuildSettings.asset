@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fase versus.unity
     guid: c52c475b8e3ef434e92ebe925a6cb95f
+  - enabled: 1
+    path: Assets/Scenes/game over.unity
+    guid: ab0b2fd9cea577d429bd25fd585bbf02
   m_configObjects: {}
