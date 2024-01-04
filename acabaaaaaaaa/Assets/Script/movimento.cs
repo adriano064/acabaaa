@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class movimento : MonoBehaviour
 {
-
+    public string faseParaCarregar;
     public int vida = 5;
     public Text textovida;
     
@@ -39,12 +39,13 @@ public class movimento : MonoBehaviour
 
     private void Update()
     {
-        loadedgamerove();
-        if (vida <= 0)
+        
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            Destroy(gameObject);
-            SceneManager.LoadScene(13);
+            SceneManager.LoadScene(faseParaCarregar);
         }
+        
+        
         textovida.text = vida.ToString();
         if (Input.GetKey(inputUp))
         {
@@ -93,20 +94,10 @@ public class movimento : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") || other.gameObject.layer == LayerMask.NameToLayer("inimigo"))
         {
-          
-            int totalvida = 4;
-            while ( vida > 0)
-            {
-                
-                vida = totalvida;
-                totalvida--;
-                break;
-                
-            }
-
-            
+            vida--;
             DeathSequence();
-            
+            loadedgamerove();
+
         }
     }
  private void loadedgamerove()
