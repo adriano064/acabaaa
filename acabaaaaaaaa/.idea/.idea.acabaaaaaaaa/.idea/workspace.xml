@@ -6,31 +6,72 @@
   <component name="ChangeListManager">
     <list default="true" id="493e7c43-1310-4603-8e2c-704e753b6fae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.acabaaaaaaaa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.acabaaaaaaaa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/game over.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/game over.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/historia.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/historia.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/historia/Cutscenes/Intro.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/historia/Cutscenes/Intro.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2aDNty2zygHUY56jh5jmjkgPB4G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Pedro",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\20211170150004\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\20211170150004\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\20211170150004\\AppData\\Local\\Symbols\\src"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Filess\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\20211170150004\Documents\git\acabaaa\acabaaaaaaaa -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\20211170150004\Documents\git\acabaaa\acabaaaaaaaa" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\Program Filess\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\20211170150004\Documents\git\acabaaa\acabaaaaaaaa -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\20211170150004\Documents\git\acabaaa\acabaaaaaaaa" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Users\20211170150004\acabaaa\acabaaaaaaaa -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -77,6 +118,7 @@
       <workItem from="1704378742304" duration="2072000" />
       <workItem from="1704390766753" duration="497000" />
       <workItem from="1704453870574" duration="2295000" />
+      <workItem from="1704467424831" duration="363000" />
     </task>
     <servers />
   </component>

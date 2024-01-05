@@ -354,6 +354,8 @@ PlayableDirector:
     value: {fileID: 1902809769}
   - key: {fileID: 748502371486974594, guid: e15d36e4cbfc74544b51a6e37a40c431, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -4883030221212741119, guid: e15d36e4cbfc74544b51a6e37a40c431, type: 2}
+    value: {fileID: 794427703}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &794427703
@@ -365,13 +367,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 794427704}
+  - component: {fileID: 794427705}
   m_Layer: 0
   m_Name: LOAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &794427704
 Transform:
   m_ObjectHideFlags: 0
@@ -387,6 +390,19 @@ Transform:
   m_Father: {fileID: 450891002}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &794427705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794427703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0994122a27b4a49887efc27cb4a1c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cenaParaCarregar: fase 1
 --- !u!1 &906152770
 GameObject:
   m_ObjectHideFlags: 0
